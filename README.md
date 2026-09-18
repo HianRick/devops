@@ -40,3 +40,6 @@ Dessa forma, o Terraform cria automaticamente os três nodes necessários para o
 CoreDNS - Responsável pelo DNS interno do kubernetes, permitindo que os serviços e aplicações encontrem outros recursos pelo nome
 Kube-apiserver - a porta de entrada do Kubernetes. Recebe e processa as requisições feitas pelo kubectl e por outras ferramentas.
 Kube-controller-manager - Executa os controllers responsáveis por manter o cluster no estado desejado. 
+
+
+##aula 189
