@@ -6,7 +6,7 @@ on:
       [main]
   pull_request:
     branches:
-      [main]
+      [hostname]
 
 
 jobs:
@@ -14,4 +14,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: hostname
-        run: hostname
+        run: echo "${{github.head_ref||github.ref_name}}"
