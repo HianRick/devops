@@ -13,9 +13,9 @@ on:
       - 'terraform/**'
   workflow_dispatch:
 
-  defaults:
-    run:
-      working-directory: terraform
+defaults:
+  run:
+    working-directory: terraform
 
 
 jobs:
